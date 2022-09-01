@@ -9,36 +9,44 @@ body {
 }
 
 #navigation1 li {
-	
+	border-bottom: 2px dotted black;
+	list-style: circle inside url("li1.png");
 }
 
 #navigation1 li:first-child {
-	
+	border-top: 2px dotted black;
+	border-bottom: 2px dotted black;
 }
 
 #navigation1 li:hover {
-	
+	list-style-position: outside;
 }
 
 #navigation1 a{
-	
+	text-decoration: none;
+	color: grey;
 }
 
 
 #navigation1 a:hover{
-	
+
 }
 
 #navigation2 li {
-	
+	border-bottom: 2px dotted black;
+	list-style: circle inside url("li2.png");
 }
 
 #navigation2 li a{
-	
-	
-	
+	text-decoration: none;
+	color: black;
 }
 
-#navigation2 li a:hover{
-	
+#navigation2 li:hover {
+	background-color: royalblue;
+	color: white;
+}
+#navigation2 a:hover {
+	background-color: royalblue;
+	color: white;
 }
