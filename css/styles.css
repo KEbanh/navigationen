@@ -10,7 +10,7 @@ body {
 
 #navigation1 li {
 	border-bottom: 2px dotted black;
-	list-style: circle inside url("li1.png");
+	list-style: circle inside url("../Bilder/li1.png");
 }
 
 #navigation1 li:first-child {
@@ -34,7 +34,7 @@ body {
 
 #navigation2 li {
 	border-bottom: 2px dotted black;
-	list-style: circle inside url("li2.png");
+	list-style: circle inside url("../Bilder/li2.png");
 }
 
 #navigation2 li a{
